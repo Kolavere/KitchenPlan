@@ -11,10 +11,16 @@ namespace KitchenPlan.Controllers
         //
         // GET: /Me/
 
-        public ActionResult Index()
+        public ActionResult Headshot()
         {
+            ViewBag.Title = "About Me";
             return View();
         }
-
+        public ActionResult Bio()
+        {
+            ViewBag.Title = "About Me";
+            return View();
+        }
+       
     }
 }
